@@ -210,6 +210,7 @@ document.body.innerHTML += ‘<p>I/O</p>’;
 
 
 The Answers:
+
 #1 A. note the `downloads` in the question, that’s the point.
 
 #2 C. type=“module” defer by default. And defer attribute’s not working on inline script.
