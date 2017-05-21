@@ -212,30 +212,30 @@ document.body.innerHTML += ‘<p>I/O</p>’;
 
 The Answers:
 
-#1 A. note the `downloads` in the question, that’s the point.
+- #1 A. note the `downloads` in the question, that’s the point.
 
-#2 C. type=“module” defer by default. And defer attribute’s not working on inline script.
+- #2 C. type=“module” defer by default. And defer attribute’s not working on inline script.
 
-#3 C.
+- #3 C.
 
-#4. B. knowing when to cache and when not to.
+- #4. B. knowing when to cache and when not to.
 
-#5. B.
+- #5. B.
 
-#6.  none of them. SVG + Compositing
+- #6.  none of them. SVG + Compositing
 
-#7.  B,C and D
+- #7.  B,C and D
 
-#8. A.
+- #8. A.
 
-#9. A.
+- #9. A.
 
-#10. A,C and D
+- #10. A,C and D
 
-#11. B.
+- #11. B.
 
-#12. A and B
+- #12. A and B
 
-#13.  C.
+- #13.  C.
 
-#14. A. note tags that cannot self closing.
+- #14. A. note tags that cannot self closing.
