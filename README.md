@@ -9,7 +9,7 @@ The Site: https://bigwebquiz.com/
 
 **think before scroll down for the anwsers**
 
-#1 [Script elements] Which of the following script elements blocks the parser while the script downloads?
+#### 1 [Script elements] Which of the following script elements blocks the parser while the script downloads?
 
 - A.
 
@@ -45,7 +45,7 @@ The Site: https://bigwebquiz.com/
 > - [Tackling Render Blocking CSS for a Fast Rendering Website](https://www.sitepoint.com/critical-rendering-path-css-fast-loading-website/)
 
 
-#2 [Module scripts] According to the spec, which of the following scripts executes first?
+#### 2 [Module scripts] According to the spec, which of the following scripts executes first?
 
 - A.
 
@@ -71,39 +71,39 @@ The Site: https://bigwebquiz.com/
 <script src=“script-four” defer></script>
 ```
 
-#3 [Caching headers] What does the “Cache-Control: must-revalidate,max-age:31536000” response header tell the browser to do?
+#### 3 [Caching headers] What does the “Cache-Control: must-revalidate,max-age:31536000” response header tell the browser to do?
 
 - A. Don’t put this in the cache
 - B. Cache it, but you can only use it after server validation
 - C. Cache it, and you can use it without server validation for 31,536,000 seconds
 
-#4 [Caching headers] What does the “Cache-Control: no-cache,max-age:31536000” response header tell the browser to do?
+#### 4 [Caching headers] What does the “Cache-Control: no-cache,max-age:31536000” response header tell the browser to do?
 
 - A. Don’t put this in the cache
 - B. Cache it, but you can only use it after server validation
 - C. Cache it, and you can use it without server validation for 31,536,000 seconds
 
-#5 [From caches to caches] Which cache does the browser check first?
+#### 5 [From caches to caches] Which cache does the browser check first?
 
 - A. HTTP/2 push
 - B. `<link rel=“preload”>`
 - C. HTTP cache
 
-#6 [SVG Compositing] We’re animating a `<circle>` in an SVG, which of the following animations will be automatically composited in Chrome 57?
+#### 6 [SVG Compositing] We’re animating a `<circle>` in an SVG, which of the following animations will be automatically composited in Chrome 57?
 
 - A. `transition: cx 2s;`
 - B. `transition: cx 2s, transform 2s;`
 - C. `transition: transform 2s;`
 - D.  `transition: opacity 2s;`
 
-#7 [DOM Compositing] We’re animating a `div`, which of the following animations can be automatically composited in Chrome 57?
+#### 7 [DOM Compositing] We’re animating a `div`, which of the following animations can be automatically composited in Chrome 57?
 
 - A. `transition: margin-left 2s;`
 - B. `transition: width 2s, transform 2s;`
 - C. `transition: transform 2s;`
 - D.  `transition: opacity 2s;`
 
-#8 [Animating after an event] You have an element with no transform, and the following code. According to the HTML spec, what happens next?
+#### 8 [Animating after an event] You have an element with no transform, and the following code. According to the HTML spec, what happens next?
 
 ```js
 btn.onclick = _=>{
@@ -118,7 +118,7 @@ btn.onclick = _=>{
 - C.  It does the macarena
 - D.  It snaps to 100px
 
-#9 [Animating after an event] You have an element with no transform, and the following code. According to the HTML spec, what happens next?
+#### 9 [Animating after an event] You have an element with no transform, and the following code. According to the HTML spec, what happens next?
 
 ```js
 btn.onclick = _=>{
@@ -135,7 +135,7 @@ btn.onclick = _=>{
 - C.  It snaps to 100px
 - D.  It gains sentience, and feels only sadness
 
-#10 [Animating after an event] What could go in here to force a synchronous update in Chrome 57?
+#### 10 [Animating after an event] What could go in here to force a synchronous update in Chrome 57?
 
 ```js
 btn.onclick = _=>{
@@ -151,7 +151,7 @@ btn.onclick = _=>{
 - C.  `el.offsetWidth`
 - D.  el.innerText
 
-#11 [Height priorities] What happens with:
+#### 11 [Height priorities] What happens with:
 
 ```css
 .foo {
@@ -166,7 +166,7 @@ btn.onclick = _=>{
 - D. Crashes all browsers in a 3 mile radius
 
 
-#12 [Typed Array] After running this code, which of the following is set to 1?
+#### 12 [Typed Array] After running this code, which of the following is set to 1?
 
 ```js
 const array = new Int8Array(100);
@@ -181,7 +181,7 @@ array[‘1.2’] = 1;
 - C. `array[‘1.1’]`
 - D. `array[‘1.2’]`
 
-#13 [Appending HTML] How many elements are created?
+#### 13 [Appending HTML] How many elements are created?
 
 ```js
 document.body.innerHTML = ‘<p>Hello</p>’;
@@ -195,7 +195,7 @@ document.body.innerHTML += ‘<p>I/O</p>’;
 - C. 10
 - D. 16
 
-#14 [Which requests request?] Given this chunk of HTML, which resources are requested?
+#### 14 [Which requests request?] Given this chunk of HTML, which resources are requested?
 
 ```html
 <image src=“one”/>
